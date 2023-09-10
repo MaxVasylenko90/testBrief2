@@ -1,0 +1,9 @@
+CREATE DATABASE testBrief2_db;
+USE testBrief2_db;
+CREATE TABLE transactions(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date_of_transaction TIMESTAMP,
+    typee varchar(200) NOT NULL,
+    actor varchar(200) NOT NULL,
+    transaction_data VARCHAR(1000) NOT NULL
+    );
