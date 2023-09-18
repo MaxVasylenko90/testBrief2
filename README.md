@@ -1,1 +1,1 @@
-# This is a Spring Boot REST application using HTTP interfaces. This application can work with these transactions (CRUD operations) and also has a search mechanism.
+# This is a Spring Boot REST application using HTTP interfaces. This application collects all the transactions coming from some service, receives the data at HTTP interface, stores it in a SQL database and makes it available via the HTTP interface. Also this application can work with these transactions (CRUD operations) and also has a search mechanism.
